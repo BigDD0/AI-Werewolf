@@ -29,10 +29,10 @@ export const DEFAULT_CONFIG: PlayerConfig = {
     host: '0.0.0.0'
   },
   ai: {
-    model: 'gpt-3.5-turbo',
+    model: 'deepseek/deepseek-r1-0528-qwen3-8b:free"',
     maxTokens: 150,
     temperature: 0.8,
-    provider: 'openai'
+    provider: 'openrouter'
   },
   game: {
     personality: '理性分析型玩家，善于逻辑推理',
