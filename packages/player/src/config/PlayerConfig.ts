@@ -29,7 +29,7 @@ export const DEFAULT_CONFIG: PlayerConfig = {
     host: '0.0.0.0'
   },
   ai: {
-    model: 'openai/gpt-5-chat',
+    model: 'deepseek/deepseek-r1-0528-qwen3-8b',
     maxTokens: 150,
     temperature: 0.8,
     provider: 'openrouter'
